@@ -1,11 +1,11 @@
-type storeType = {
-
-}
+type storeType = {}
 
 const store = {
     _state: {
-        inputValue: "",
-        currentWordIndex: 0
+        panelValues: {
+            inputValue: "",
+            currentWordIndex: 0
+        }
     },
     _callSubscriber() {
         console.log("No subscriber")
@@ -15,7 +15,14 @@ const store = {
     },
     subscribe(observer: () => void) {
         this._callSubscriber = observer
+    },
+    dispatch(action: object) {
     }
 }
+
+// Action Creators
+const inputValueActionCreator = () => ({
+    type: ""
+})
 
 export default store

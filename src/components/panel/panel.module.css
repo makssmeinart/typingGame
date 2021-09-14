@@ -1,0 +1,43 @@
+/* Panel Global*/
+.border {
+    border: 3px solid #DA0037;
+}
+.largeTab {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    gap: 1em;
+}
+
+.input {
+    flex: 1;
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: whitesmoke;
+    padding: 0 .5em;
+}
+.input:focus {
+    outline: none;
+}
+
+.wpm {
+    height: 40px;
+}
+
+
+.time {
+
+}
+
+.restart {
+    cursor: pointer;
+    width: 45px;
+    background-color: transparent;
+    color: #DA0037;
+    font-size: 1rem;
+}

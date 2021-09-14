@@ -6,7 +6,7 @@ import state from "./logic/state"
 
 const rerenderEntireTree = () => {
     ReactDOM.render(
-        <App/>,
+        <App />,
         document.getElementById('root')
     );
 }
